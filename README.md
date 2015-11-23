@@ -7,4 +7,4 @@ composer install
 
 # Run
 
-Double click start_for_win.bat
+Enter the example/chat/ directory, and then double-click start_for_win.bat.
