@@ -1,8 +1,8 @@
-# phpsocket.io-chat for win
+# phpsocket.io for win
 
 # Install
 
-composer update
+composer install
 
 
 # Run
