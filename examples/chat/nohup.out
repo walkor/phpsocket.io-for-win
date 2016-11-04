@@ -1,0 +1,127 @@
+Workerman[server.php] start in DEBUG mode
+[1A
+[K-----------------------[47;30m WORKERMAN [0m-----------------------------
+[0mWorkerman version:3.2.0          PHP version:5.4.37
+------------------------[47;30m WORKERS [0m-------------------------------
+[47;30muser[0m          [47;30mworker[0m        [47;30mlisten[0m                   [47;30mprocesses[0m [47;30mstatus[0m
+root          PHPSocketIO   SocketIO://0.0.0.0:2020   1        [32;40m [OK] [0m
+root          WebServer     http://0.0.0.0:2022       1        [32;40m [OK] [0m
+----------------------------------------------------------------
+Press Ctrl-C to quit. Start success.
+transport closedtransport closedtransport closedPHP Notice:  Undefined offset: 1 in /home/phpsocket.io/src/Engine/Protocols/SocketIO.php on line 205
+
+Notice: Undefined offset: 1 in /home/phpsocket.io/src/Engine/Protocols/SocketIO.php on line 205
+transport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedPHP Notice:  Trying to get property of non-object in /home/phpsocket.io/src/Engine/Protocols/Http/Response.php on line 149
+
+Notice: Trying to get property of non-object in /home/phpsocket.io/src/Engine/Protocols/Http/Response.php on line 149
+PHP Warning:  Creating default object from empty value in /home/phpsocket.io/src/Engine/Protocols/Http/Response.php on line 153
+
+Warning: Creating default object from empty value in /home/phpsocket.io/src/Engine/Protocols/Http/Response.php on line 153
+PHP Notice:  Trying to get property of non-object in /home/phpsocket.io/src/Engine/Transports/Polling.php on line 182
+
+Notice: Trying to get property of non-object in /home/phpsocket.io/src/Engine/Transports/Polling.php on line 182
+PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, no array or string given in /home/phpsocket.io/src/Engine/Transports/Polling.php on line 182
+
+Warning: call_user_func() expects parameter 1 to be a valid callback, no array or string given in /home/phpsocket.io/src/Engine/Transports/Polling.php on line 182
+transport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedPHP Notice:  Undefined property: Workerman\Connection\TcpConnection::$websocketCurrentFrameLength in /home/phpsocket.io/src/Engine/Protocols/WebSocket/RFC6455.php on line 56
+
+Notice: Undefined property: Workerman\Connection\TcpConnection::$websocketCurrentFrameLength in /home/phpsocket.io/src/Engine/Protocols/WebSocket/RFC6455.php on line 56
+error opcode 7 and close websocket connection
+transport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedrequest overlaptransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedPHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+PHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+transport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedPHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+PHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+PHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+transport closedtransport closedPHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+PHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+transport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedPHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+transport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedPHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+PHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+PHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+PHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+PHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+transport closedtransport closedPHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+PHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+transport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedtransport closedPHP Warning:  Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+
+Warning: Missing argument 1 for PHPSocketIO\Event\Emitter::emit() in /home/phpsocket.io/src/Event/Emitter.php on line 81
+PHP Notice:  Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+
+Notice: Undefined variable: event_name in /home/phpsocket.io/src/Event/Emitter.php on line 83
+Workerman[server.php] Stopping ...
+Workerman[server.php] has been stopped
