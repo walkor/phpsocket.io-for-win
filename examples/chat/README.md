@@ -1,17 +1,6 @@
 # For chat demo
 ## start
-```php server.php start``` for debug mode
 
-```php server.php start -d``` for daemon mode
+double-click start_for_win.bat
 
-## stop
-```php server.php stop```
-
-## satus 
-```php server.php status```
-
-## restart
-``` php server.php restart```
-
-## reload
-``` php server.php reload```
+visit http://127.0.0.1:2022
