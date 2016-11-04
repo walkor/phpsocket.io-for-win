@@ -98,7 +98,7 @@ public function __destruct()
             $headers['Access-Control-Allow-Origin'] = '*';
         }
 
-        $res->writeHead(400, '', $headers);
+        $res->writeHead(403, '', $headers);
         $res->end(json_encode(array(
             'code' => $code,
             'message' => isset(self::$errorMessages[$code]) ? self::$errorMessages[$code] : $code
@@ -161,11 +161,15 @@ public function __destruct()
             $parts = parse_url($origin);
             $defaultPort = 'https:' === $parts['scheme'] ? 443 : 80;
             $parts['port'] = isset($parts['port']) ? $parts['port'] : $defaultPort;
-            $ok =
-                $this->origins === $parts['host'] . ':' . $parts['port'] ||
-                $this->origins === $parts['host'] . ':*' ||
-                $this->origins === '*:' + $parts['port'];
-            return call_user_func($fn, null, $ok, $req);
+            $allowed_origins = explode(' ', $this->origins);
+            foreach( $allowed_origins as $allow_origin ){
+                $ok =
+                    $allow_origin === $parts['scheme'] . '://' . $parts['host'] . ':' . $parts['port'] ||
+                    $allow_origin === $parts['scheme'] . '://' . $parts['host'] ||
+                    $allow_origin === $parts['scheme'] . '://' . $parts['host'] . ':*' ||
+                    $allow_origin === '*:' . $parts['port'];
+                return call_user_func($fn, null, $ok, $req);
+            }
         }
         call_user_func($fn, null, false, $req);
     }
@@ -184,7 +188,7 @@ public function __destruct()
 
     public function handshake($transport, $req)
     {
-        $id = microtime(true) . rand(1, 100000000);
+        $id = microtime(true) . (function_exists('random_int') ? random_int(1, 100000000): rand(1, 100000000));
         if (isset($req->_query['j'])) 
         {
             $transport = '\\PHPSocketIO\\Engine\\Transports\\PollingJsonp';
