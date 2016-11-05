@@ -2,7 +2,7 @@
 
 # Install
 
-composer install
+composer require workerman/phpsocket.io-for-win
 
 
 # Run example
